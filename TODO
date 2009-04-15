@@ -1,0 +1,7 @@
+Bugs:
+	sessions and favorites lookup in db is potentially insecure (injection attack)
+	rewrite_host causes things to never cache (fixed?)
+		
+Todo:
+	Add reconnect code to memcache library
+	Cache dependencies for cached pages so they don't get scanned on every request
